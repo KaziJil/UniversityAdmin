@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "862754400514",
+    "project_id": "universityofsouthasiadha-b6929",
+    "storage_bucket": "universityofsouthasiadha-b6929.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862754400514:android:b49ba4463c907cff6fba1b",
+        "android_client_info": {
+          "package_name": "com.example.universityofsouthasiaadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862754400514-ffrttlgunjmqc0b6pvikho114l96o1og.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEeIpEN0jVq7nYq_NJrb1V6RejtHnvs4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862754400514-ffrttlgunjmqc0b6pvikho114l96o1og.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

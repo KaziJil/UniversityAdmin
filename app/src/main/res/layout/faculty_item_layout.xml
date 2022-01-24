@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="4dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/faculty"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/selete_teacher_pic_update_info"/>
+
+        <TextView
+            android:id="@+id/teacher_name_update_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/tittle_bg"
+            android:hint="Jahidul Islam"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/teacher_post_update_info"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Principal"
+            android:background="@drawable/tittle_bg"
+            android:padding="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/teacher_email_update_info"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="jhidulislam@gmail.com"
+            android:background="@drawable/tittle_bg"
+            android:padding="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/teacher_info_upload_update_ino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/upload_bg"
+            android:padding="15dp"
+            android:text="Update Info"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColorHint="@color/black"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
